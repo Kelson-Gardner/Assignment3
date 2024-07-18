@@ -40,7 +40,6 @@ fun App() {
             Button(
                 onClick = {
                 trackerCards = trackerCards.filter { it != shipment}
-
             },
                 modifier = Modifier.align(Alignment.End)
             ){
